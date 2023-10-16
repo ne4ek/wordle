@@ -1,0 +1,32 @@
+.keyboarddiv{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+
+.keyboard{
+    text-align: center; 
+}
+
+.keyword:hover {
+    background-color: rgb(138, 146, 153);
+}
+
+
+.keyword{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+
+@media(max-width:1288px){
+    .keyboarddiv{
+        display: none;
+    }
+    .gamediv{
+        width: 100%;
+    }
+}
+

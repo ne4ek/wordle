@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Signika&display=swap');
+
+.end{
+    display: none;
+    flex-direction: column;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+
+.won{
+    background-image: url(vin.jpg);
+}
+
+.lose{
+    background-image: url(lose.jpg);  
+}
+
+
+
+.pfin{
+    color: #2943d4;
+    /* margin: auto auto 5px auto; */
+    font-size: 100px;
+    font-family: Signika, serif;
+    letter-spacing: 10px;
+}
+

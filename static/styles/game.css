@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: aqua;
+
+}
+
+.game{
+    height: 654px;
+    width: 544px;
+    background-color: aqua;
+    margin: 10px auto auto auto;   
+}
+
+.contan{
+    display: flex;
+}
+
+.gamediv{
+    width: 50%;
+}
+
+.inp{
+    width: 540px;
+    height: 100px;
+    margin-top: 4px;
+    font-size: 90px;
+    letter-spacing: 70px;
+    border-radius: 10px;   
+}
+
+.block{
+    width: 540px;
+    height: 100px;
+    margin-top: 4px;
+    font-size: 90px;
+    letter-spacing: 70px;
+    border: 0.3px black solid;
+    border-radius: 10px;
+    background-color:rgb(214, 226, 236);
+}
+
+.block:hover{
+    background-color:rgb(138, 146, 153);
+}
+
+.cell{
+    width: 100px;
+    height: 100px;
+    margin-top: 4px;
+    font-size: 90px;
+    text-align: center;
+    background-color:white;    
+}
+
+.linediv{
+    display: flex;
+    justify-content: space-around;
+}
+
+.celldiv{
+    display: flex;
+    flex-direction: column;
+}
+
